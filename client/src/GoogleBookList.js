@@ -3,8 +3,6 @@ import axios from 'axios';
 import GoogleBookListing from './GoogleBookListing.js';
 
 const GoogleBooksApiUri = "https://www.googleapis.com/books/v1/volumes?q=";
-const GoogleApiKey = "AIzaSyCsJFGi3_Ouj4HLOTzcIAR45OJeM0kAths";
-
 
 class GoogleBookList extends Component {
 	

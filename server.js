@@ -18,9 +18,6 @@ app.use(cors());
 app.use(routes);
 
 
-// Define API routes here
-
-
 // Send every other request to the React app
 // Define any API routes before this runs
 app.get("*", (req, res) => {
